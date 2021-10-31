@@ -4,8 +4,8 @@ const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
 
 const provider = new HDWalletProvider(
-  'start blast reward link cook retreat birth relief erase ice major autumn',
-  'https://rinkeby.infura.io/v3/0d1e13ca4e8844408d2f6ef1871282fc'
+  <secret-words>,
+  <rinkeby-url>
 );
 
 const web3 = new Web3(provider);
